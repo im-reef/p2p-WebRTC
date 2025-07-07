@@ -1,4 +1,4 @@
-const signaling = new WebSocket("ws://[2001:d08:1c10:fcfe:bafb:f58f:f663:c1d1]:3000");
+const signaling = new WebSocket("ws://YOUR PUBLIC ADDRESS: PORT");
 
 const peer = new RTCPeerConnection({
   iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
